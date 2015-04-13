@@ -1,0 +1,410 @@
+body{
+	font-family: Ubuntu;
+	font-size: 16px;
+	color: #444;
+	font-weight: 300;
+}
+
+.header-top{
+	min-height: 55px;
+	background: #2D3E48;
+	color: #BFCAD0;
+	border-bottom: 1px solid #394c57;
+}
+
+.text-header{
+	margin-top: 17px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #BFCAD0;
+}
+
+.slc-languange{
+	margin-top: 15px;
+}
+
+.btn-languange, .btn-introduce, .btn-company, .btn-teamwork{
+	background: transparent;
+	border-color: #BFCAD0;
+	color: #BFCAD0;
+}
+
+.sosmed-topicon{
+	margin-top: 13px;
+	text-align: right;	
+}
+
+.sosmed-topicon img{
+	margin-left: 5px;
+}
+
+.img-logo{
+	float: left;
+}
+
+.navbar-brand span{
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	margin-top: 13px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+
+.navbar-default{
+	border: none;
+	background: #202E37;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #dee0e1;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #F5AB35;
+}
+
+.wrapper-top{
+	min-height: 540px;
+	background-image: url(../img/bg-top.jpg);
+	background-size: cover;
+}
+
+.title-top{
+	font-size: 50px;
+	margin-top: 100px;
+	line-height: 60px;
+	color: #fff;
+	background: rgba(0,22,44,0.3);
+	padding: 10px 20px;
+	font-weight: 100;
+	float: left;
+}
+
+.subtitle-top{
+	margin-top: 20px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px 20px;
+	font-size: 20px;
+	float: left;
+	color: #333;
+	font-weight: lighter;
+}
+
+.wrapper-introduce{
+	min-height: 300px;
+	background: #2D728B;
+	padding-top: 30px;
+}
+
+.title-introduce{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.introduce{
+	color: #fff;
+	text-align: center;
+}
+
+.btn-introduce, .btn-company{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #fff;
+	border-color: 1px;
+}
+
+.wrapper-company{
+	padding: 30px 0 0 0;
+	margin-bottom: 50px;
+}
+
+.btn-company{
+	color: #555;
+	border: 1.4pt solid #d4d4d4;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.title-company, .title-ourteam{
+	margin: 40px 0 50px 0;
+	font-size: 40px;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 3px solid #333;
+	color: #333;
+}
+
+.title-subcompany{
+	min-width: 250px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	padding: 10px 20px;
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	-moz-box-shadow: 0 0 1px 1px #fff inset,inset 0 0 20px 3px rgba(230,226,220,.6);
+	-webkit-box-shadow: 0 0 1px 1px #fff inset,inset 0 0 20px 3px rgba(230,226,220,.6);
+	box-shadow: 0 0 1px 1px #fff inset,inset 0 0 20px 3px rgba(230,226,220,.6);
+}
+
+.title-subcompany span{
+	height: 50px;
+	line-height: 51px;
+	font-size: 35px; 
+}
+
+.describe-company{
+	min-height: 260px;
+	width: 350px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	top: -40px;
+	padding: 60px 20px 20px 20px;
+	text-align: center;
+	/*background: #2D3E48;*/
+	color: #333;
+	border: 1px solid #CCCBC9;
+	border-radius: 4px;
+	-moz-box-shadow: 0 0 1px 1px #fff inset,inset 0 0 20px 3px rgba(230,226,220,.6);
+	-webkit-box-shadow: 0 0 1px 1px #fff inset,inset 0 0 20px 3px rgba(230,226,220,.6);
+	box-shadow: 0 0 1px 1px #fff inset,inset 0 0 20px 3px rgba(230,226,220,.6);
+}
+
+.wrapper-ourteam{
+	padding: 30px 0 70px 0;
+	min-height: 500px;
+	background-image: url(../img/bg-team.jpg);
+	background-size: cover;
+}
+
+.title-ourteam{
+	color: #fff;
+	border: 3px solid #fff;
+}
+
+.teamwork{
+	width: 270px;
+	min-height: 200px;
+	background: rgba(255,255,255,.5);
+	border-radius: 4px;
+	padding: 20px 20px;
+}
+
+.name-teamwork{
+	font-size: 25px;
+	color: #222;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0 0px 0;
+}
+
+.title-teamwork{
+	font-size: 20px;
+	font-weight: normal;
+	color: #222;
+	border-bottom: 2px solid #222;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.teamwork p{
+	text-align: center;
+	margin-top: 10px;
+	color: #222;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.photo{
+	width: 130px;
+	height: 130px;
+	margin: auto;
+	border-radius: 100px;
+	overflow: hidden;
+	border: 10px solid #bcbcbc;
+}
+
+.photo img{
+	width: 100%;
+}
+
+.btn-teamwork{
+	border: 1px solid #222;
+	color: #222;
+}
+
+.wrapper-service{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.body-product{
+	min-height: 100px;
+	padding: 10px 20px;
+	/*background: #bcbcbc;*/
+	box-shadow: 2px 2px 4px #bcbcbc;
+}
+
+.body-product p{
+	font-size: 16px;
+	color: #fff;
+}
+
+.title-service{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.line-service{
+	height: 25px;
+}
+
+.wrapper-alamat{
+	min-height: 300px;
+}
+
+#map_canvas:before{
+	background: rgba(0, 0, 0, 0.1);
+	height: 5px;
+	width: 100%;
+	content: " ";
+	position: absolute;
+	z-index: 10;
+}
+
+#map_canvas{
+	height: 350px;
+	width: 100%;
+}
+
+#map_canvas:after{
+	background: rgba(0, 0, 0, 0.1);
+	height: 5px;
+	width: 100%;
+	content: " ";
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+}
+
+.footer{
+	padding-top: 30px;
+	min-height: 270px;
+	background: #202E37;
+	border-top: 10px solid #2D3E48;
+	color: #BFCAD0;	
+}
+
+.logo-footer{
+	margin-top: 60px;
+}
+
+.logo-footer span{
+	font-size: 30px;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: -10px;
+	margin-left: 10px;
+	border-bottom: 2px solid #BFCAD0;
+}
+
+.sosmed-boticon{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.title-footer{
+	font-size: 23px;
+	font-weight: normal;
+	display: inline-block;
+	border-bottom: 2px solid #BFCAD0;
+	margin-bottom: 20px;
+}
+
+.alamat-footer{
+	font-size: 15px;
+}
+
+.menu-footer ul{
+	list-style: none;
+}
+
+.menu-footer ul li a{
+	color: #BFCAD0;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.copyright{
+	background: #2D3E48;
+	padding: 10px 0;
+}
+
+.copyright span{
+	color: #BFCAD0;
+	font-size: 15px;
+}
+
+.header-aboutus{
+	min-height: 150px;
+	margin-bottom: 30px;
+}
+
+.bg-title-about{
+	padding-top: 30px;
+	padding-left: 30px;
+	background: rgb(45,144,139);
+	min-height: 150px;
+}
+
+.title-about{
+	color: #fff;
+	font-size: 40px;
+	display: inline-block;
+	border-bottom: 3px solid #fff;
+	font-weight: 100;
+	padding: 5px 0 0 0px;
+}
+
+.col-edit-aboutus{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.bullet-list{
+	padding: 0 18px 0px 18px;
+	color: #f1f1f1;
+	width: 80px;
+	height: 80px;
+	border-radius: 60px;
+	border: 7px solid #f1f1f1;
+	background: #2D728B;
+	font-size: 65px;
+	font-weight: bold;
+}
+
+.row-aboutindobit{
+	margin-bottom: 15px;
+}
+
+.aboutus-foto{
+	
+}
