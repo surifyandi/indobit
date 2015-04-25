@@ -6,6 +6,7 @@
     	<meta name="author" content="indobit">
 		<link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css" type="text/css"/>
 		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<link rel="stylesheet" href="asset/css/bootstrap.icon-large.min.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
 	</head>
 
@@ -62,8 +63,8 @@
 				        <li><a href="#">Media <span class="sr-only">(current)</span></a></li>
 				        <li><a href="#">Achievement</a></li>
 				        <li><a href="#">Indobit Network</a></li>
-				        <li><a href="#">Job & carrer</a></li>
-				        <li><a href="#">SLA</a></li>
+				        <li><a href="job-career.php">Job & carrer</a></li>
+				        <li><a href="sla.php">SLA</a></li>
 				        <li><a href="aboutus.php">About Us</a></li>
 				        <li><a href="#">TOS</a></li>
 				        <li><a href="contactus.php">Contact Us</a></li>

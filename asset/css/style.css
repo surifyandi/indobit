@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5{
+	font-family: Ubuntu;
+}
+
 body{
 	font-family: Ubuntu;
 	font-size: 16px;
@@ -137,7 +141,7 @@ body{
 	font-weight: bold;
 }
 
-.title-company, .title-ourteam{
+.title-company, .title-ourteam, .title-job{
 	margin: 40px 0 50px 0;
 	font-size: 40px;
 	display: inline-block;
@@ -428,12 +432,39 @@ body{
 	line-height: 23px;
 }
 
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+	background: rgb(45,144,139);
+}
+
 hr{
 	background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.2), transparent);
 	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
 	border: 0;
 	height: 1px;
 	margin: 22px 0 22px 0;
+}
+
+.frame-item-job{
+	width: 130px;
+	height: 130px;
+	background: #fff;
+	border-radius: 100px;
+	margin: auto;
+	overflow: hidden;
+	padding: 40px 0 0 43px;
+	border: 2px solid #2d908b;
+}
+
+.col-item-job:hover .frame-item-job{
+	background: #f1f1f1;
+}
+
+.col-item-job{
+	padding: 30px 0;
+}
+
+.col-item-job a{
+	color: #2d908b;
 }
 
 @media (max-width: 767px) { ... }
