@@ -14,7 +14,7 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-1">
+					<div class="col-md-2 col-xs-2">
 						<div class="slc-languange">
 							<div class="btn-group">
 							  	<button type="button" class="btn btn-primary dropdown-toggle btn-sm btn-languange" data-toggle="dropdown" aria-expanded="false">
@@ -26,12 +26,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-4">
 						<div class="text-header">
 							call us: 000-123-456-789
 						</div>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-7 col-xs-6">
 						<div class="sosmed-topicon">
 							<img src="asset/icon/1428483069_Facebook-128.png" width="30px" />
 							<img src="asset/icon/1428483081_Twitter-128.png" width="30px" />
@@ -66,7 +66,7 @@
 				        <li><a href="#">SLA</a></li>
 				        <li><a href="aboutus.php">About Us</a></li>
 				        <li><a href="#">TOS</a></li>
-				        <li><a href="#">Contact Us</a></li>
+				        <li><a href="contactus.php">Contact Us</a></li>
 				    </ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->

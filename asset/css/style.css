@@ -10,7 +10,7 @@ body{
 	background: #2D3E48;
 	color: #BFCAD0;
 	border-bottom: 1px solid #394c57;
-}
+}		
 
 .text-header{
 	margin-top: 17px;
@@ -169,8 +169,8 @@ body{
 }
 
 .describe-company{
-	min-height: 260px;
-	width: 350px;
+	height: 260px;
+	min-width: 350px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 1;
@@ -363,9 +363,13 @@ body{
 	font-size: 15px;
 }
 
-.header-aboutus{
+.header-aboutus, .header-contactus{
 	min-height: 150px;
 	margin-bottom: 30px;
+}
+
+.header-contactus{
+	margin-bottom: 0;
 }
 
 .bg-title-about{
@@ -405,6 +409,111 @@ body{
 	margin-bottom: 15px;
 }
 
-.aboutus-foto{
-	
+.wrapper-contactus{
+	margin-top: 30px;
+	margin-bottom: 70px;
 }
+
+.service{
+	margin-top: 50px;
+}
+
+.unlist-contact{
+	list-style: none;
+	padding-left: 0;
+}
+
+.unlist-contact li{
+	margin-bottom: 3px;
+	line-height: 23px;
+}
+
+hr{
+	background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.2), transparent);
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+	border: 0;
+	height: 1px;
+	margin: 22px 0 22px 0;
+}
+
+@media (max-width: 767px) { ... }
+@media (min-width: 768px) and (max-width: 991px) { ... }
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-brand span{
+		font-size: 23px;
+		margin-top: 5px;
+	} 
+
+	.img-logo{
+		min-width: 25px;
+	}
+
+	.navbar-brand{
+		margin-top: 10px;
+	}
+
+	.navbar-default .navbar-nav > li > a{
+		font-size: 14px;
+	}
+
+	.navbar-default{
+		margin-top: 0;
+	}
+
+	.title-top{
+		margin-top: 50px;
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.subtitle-top{
+		font-size: 18px;
+	}
+
+	.wrapper-top{
+		min-height: 500px;
+	}
+
+	.wrapper-introduce{
+		margin-top: 0;
+		padding-top: 15px;
+		min-height: 260px;
+	}
+
+	.wrapper-company{
+		padding-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.title-company, .title-ourteam{
+		font-size: 35px;
+	}
+
+	.describe-company{
+		min-width: 290px;
+	}
+
+	.wrapper-ourteam{
+		padding-top: 0;
+		padding-bottom: 45px;
+	}
+
+	.teamwork{
+		max-width: 210px;
+	}
+
+	.photo{
+		width: 100px;
+		height: 100px;
+		border: 7px solid #bcbcbc;
+	}
+
+	.name-teamwork{
+		font-size: 20px;
+	}
+
+	.title-teamwork, .teamwork p, .btn-teamwork{
+		font-size: 15px;
+	}
+}
+@media (min-width: 1200px) { ... }

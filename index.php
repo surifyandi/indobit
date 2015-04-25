@@ -46,7 +46,7 @@
 					</div>
 				</center>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-sm-4">
 				<div class="col-company">
 					<center><div class="title-subcompany"><img src="asset/company-logo/logo.png" height="50px" /></div></center>
 					<div class="describe-company">
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-sm-4">
 				<div class="col-company">
 					<center><div class="title-subcompany"><img src="asset/company-logo/jfxjournal-logo.png" height="50px" /></div></center>
 					<div class="describe-company">
@@ -66,7 +66,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-sm-4">
 				<div class="col-company">
 					<center><div class="title-subcompany"><span>Riset<b>Vallas</b></span></div></center>
 					<div class="describe-company">
@@ -91,7 +91,7 @@
 					</div>
 				</center>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="teamwork">
 					<div class="photo">
 						<img src="asset/team/deddy.jpg">
@@ -102,7 +102,7 @@
 					<center><a href="#"><button class="btn btn-lg btn-teamwork"><b>Selengkapnya</b></button></a></center>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="teamwork">
 					<div class="photo">
 						<img src="asset/team/tri.jpg">
@@ -113,7 +113,7 @@
 					<center><a href="#"><button class="btn btn-lg btn-teamwork"><b>Selengkapnya</b></button></a></center>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="teamwork">
 					<div class="photo">
 						<img src="asset/team/agus.jpg">
@@ -124,7 +124,7 @@
 					<center><a href="#"><button class="btn btn-lg btn-teamwork"><b>Selengkapnya</b></button></a></center>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-3">
 				<div class="teamwork">
 					<div class="photo">
 						<img src="asset/team/surif.jpg">
@@ -143,10 +143,10 @@
 <div class="wrapper-service">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<img src="asset/img/our-product.png" />
+			<div class="col-md-6 col-sm-6">
+				<img src="asset/img/our-product.png" class="img-responsive"/>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-6">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="body-product" style="background:#3498DB;">
